@@ -1,0 +1,121 @@
+/*------- faq_wcontrol_area -------*/
+.faq_wcontrol_area { background-color: #fff;}
+.faq_wcontrol_area::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 479px;
+    left: -130px;
+    top: -25px;
+    z-index: 1;
+    background-image: url('../images/txt_page_bg1.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 300px auto;
+    filter: grayscale(100%);
+}
+.faq_wcontrol {
+    max-width: 930px;
+    padding-top: 48px;
+    padding-bottom: 28px;
+    z-index: 3;
+}
+.faq_wcontrol ul li { margin-bottom: 16px; }
+.faq_wcontrol ul li:last-child { margin-bottom: 0; }
+@media screen and (max-width: 991px) {
+    .faq_wcontrol_area::after { display: none; }
+    .faq_wcontrol {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+/*---------- faq_tgl_area ----------*/
+.faq_tgl_area {
+    background-color: #fff;
+    background-repeat: repeat;
+    background-position: left top;
+    z-index: 3;
+    position: relative;
+}
+.faq_bgimg {  background-image: url("https://similar.marbslifestyle.com/wp-content/uploads/2022/05/blog_bg1.png"); }
+.faq_tgl_wrap {
+    width: 100%;
+    max-width: 930px;
+    padding: 48px 0;
+}
+.faq_tgl_inner_wrap { max-width: 930px; }
+.faq_title h5 {
+    color: var(--primary-color);
+    font-family: var(--Montserrat-medium-fonts);
+    padding-bottom: 16px;
+}
+.faq_tgl_row {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(16, 42, 102, 0.2);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.faq_tgl_row:last-child { margin-bottom: 0; }
+.faq_tgl_title {
+    padding: 16px 46px 15px 16px;
+    cursor: pointer;
+    position: relative;
+}
+.faq_tgl_row.active {
+    border-color: rgba(16, 42, 102, 0.6);
+    box-shadow: 0px 4px 40px rgba(16, 42, 102, 0.1);
+}
+.faq_tgl_row.active .faq_tgl_title::after { background-image: url('../images/min_faq_tgl_icon.svg'); }
+.faq_tgl_title::after {
+    width: 17px;
+    height: 17px;
+    top: 0;
+    right: 16px;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url('../images/pluse_faq_tgl_icon.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 17px auto;
+}
+.faq_tgl_title h6 {
+    font-family: var(--Montserrat-semi-fonts);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: var(--primary-color);
+    padding: 0;
+}
+.faq_tgl_content {
+    display: none;
+    padding: 0 16px 0 16px;
+    position: relative;
+    top: -6px;
+}
+.faq_tgl_content p {
+    color: var(--primary-color);
+    padding-bottom: 20px;
+}
+.faq_tgl_content p > a {
+    color: var(--primary-color);
+    text-decoration-line: underline;
+}
+.faq_wcontrol ol li,
+.faq_wcontrol ul li,
+.faq_tgl_content ol li,
+.faq_tgl_content ul li {
+    font-family: var(--Montserrat-ultra-fonts);
+    font-size: 15px;
+    line-height: 30px;
+    color: var(--primary-color);
+}
+.faq_wcontrol ol li a,
+.faq_wcontrol ul li a,
+.faq_tgl_content ol li a,
+.faq_tgl_content ul li a { color: var(--primary-color); }
+@media screen and (max-width: 991px) {
+    .faq_tgl_wrap { padding: 40px 0; }
+    .faq_title { padding-bottom: 15px; }
+}

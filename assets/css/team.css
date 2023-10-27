@@ -1,0 +1,149 @@
+/*-------- top_team_area --------*/
+.top_team_area { background-color: var(--white-color);}
+.top_team_wrap { padding: 34px 0 11px 0; }
+.top_team_title h3 { font-weight: var(--fw-300);} 
+.top_team_content {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .top_team_wrap {
+        max-width: initial;
+        padding: 22px 0 36px 0;
+    }
+    .top_team_content {
+        column-count: 1;
+        column-gap: 0px;
+    }
+    .top_team_content p:last-child,
+    .top_team_content p:last-of-type { padding-bottom: 0 !important; }
+}
+
+/*-------- founder_area --------*/
+.founder_area { background-color: var(--white-color);}
+.founder_wrap { padding-bottom: 65px; }
+.founder_title h3 {
+    font-weight: var(--fw-300);
+    padding-bottom: 26px;
+}
+.founder_content {
+    width: 100%;
+    gap: 38px 24px;
+    padding: 0;
+}
+.founder_content .owner_personal_info {
+    width: calc(calc(100% - 48px) / 3);
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+.founder_content .personal_profile_photo {
+    width: 100%;
+    overflow: initial;
+    border-radius: 0;
+}
+.personal_profile_details {
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,15%);
+    border-radius: 0 0 6px 6px;
+    padding: 18px 26px 26px 26px;
+}
+.personal_profile_details span {
+    display: block;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.personal_profile_details h5 {
+    font-weight: var(--fw-700);
+    text-transform: initial;
+    padding-bottom: 0;
+}
+.personal_profile_details ul {
+    padding: 0;
+    list-style-type: none;
+}
+.personal_profile_details ul li {
+    list-style-type: none;
+    line-height: 24px;
+    color: var(--primary-color);
+}
+.personal_profile_details ul li a {
+    color: var(--primary-color);
+    word-break: break-all;
+}
+.team_btn_wrap {
+    width: calc(calc(100% + 52px));
+    gap: 16px 0;
+    border-top: 1px solid #dbe4e7;
+    margin-left: -26px;
+    margin-top: 10px;
+    padding: 18px 26px 0 26px;
+}
+.team_btn_wrap .commen_btn {
+    height: 40px;
+    border-color: var(--golden-color);
+    width: 100%;
+}
+.team_read {
+    background-color: var(--golden-color);
+    color: var(--white-color);
+}
+.team_profile {
+    background-color: var(--white-color);
+    color: var(--golden-color);
+}
+.team_read:hover {
+    background-color: var(--white-color);
+    color: var(--golden-color);
+}
+.team_profile:hover {
+    background-color: var(--golden-color);
+    color: var(--white-color);
+}
+.others_team_area .founder_wrap { padding-bottom: 26px; }
+.others_team_area .founder_title h3 { padding-bottom: 20px; }
+.others_team_area .personal_profile_details { padding-bottom: 18px;}
+.others_team_area .personal_profile_details span { padding-bottom: 10px; }
+.others_team_area .personal_profile_details h5 {
+    font-size: 18px;
+    font-weight: var(--fw-400);
+    color: var(--blue-color);
+}
+@media screen and (max-width: 991px) {
+    .founder_content .owner_personal_info {  width: calc(calc(100% - 0px) / 1);}
+    .founder_wrap { padding-bottom: 50px;  }
+    .personal_profile_details { padding: 18px 20px 20px 20px; }
+    .others_team_area .founder_wrap { padding-bottom: 20px; }
+}
+
+
+/*---- angelic_text_area ----*/
+.angelic_text_area { background-color: var(--white-color); }
+.angenlic_text_wrap {
+    background-image: url('../images/team_bg.svg');
+    background-repeat: no-repeat;
+    background-position: left 12px top;
+    background-size: 225px auto;
+    padding: 58px 0 60px 0;
+}
+.angenlic_text_wrap p {
+    color: rgba(16,42,102,22%);
+    font-size: 72px;
+    font-family: var(--Angelic-fonts);
+    font-weight: 400;
+    max-width: 775px;
+    line-height: 96px;
+}
+@media screen and (max-width: 991px) {
+    .angenlic_text_wrap {
+        background-position: left top;
+        background-size: 96px auto;
+        padding: 17px 0 32px 0;
+    }
+    .angenlic_text_wrap p {
+        font-size: 37px;
+        line-height: 50px;
+    }
+}

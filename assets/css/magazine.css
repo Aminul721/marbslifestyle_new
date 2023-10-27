@@ -1,0 +1,353 @@
+.magazine-form-box {
+    background-image:url(https://marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/form_bg_new.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 32px;
+    z-index: 1;
+}
+.magazine-form-box::after, 
+.magazine-form-box::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(0deg,rgba(16,42,102,.6),rgba(16,42,102,.6));
+    border-radius: 8px;
+}
+.magazine-form-box::after {
+    max-width: 472px;
+    left: initial;
+    right: -35px;
+    top: initial;
+    bottom: -110px;
+    z-index: -1;
+    background-color: transparent;
+    background-image: url(../images/magazine-mockup.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100% auto;
+}
+.magazine-form-title h3 {
+    font-size:28px;
+    color:var(--white-color);
+    line-height: 43px;
+}
+.magazine-form-title p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -.02em;
+    color:var(--white-color);
+    padding-bottom: 20px;
+}
+.magazine-label {
+    color: var(--white-color);
+    font-size: 19px;
+    line-height: 23px;
+    font-weight:normal;
+    display: block;
+    padding-bottom: 8px;
+    font-family: var(--Montserrat-light-fonts);
+}
+.magazine-input-col .input-field{
+    color: var(--blue-color);
+    font-size: 18px;
+    line-height: 1;
+    width: 100%;
+    height: 55px;
+    outline-style: none;
+    border: 1px solid #c9d3d6;
+    border-radius: 7px;
+    padding: 0 10px 0 24px;
+    font-family: var(--Montserrat-light-fonts);
+}
+.magazine-input-row {
+    gap:20px;
+}
+.magazine-input-row ::placeholder {
+    color: var(--gray-color);
+    opacity: 1; 
+  }
+  .magazine-input-row  ::-ms-input-placeholder { 
+    color:var(--gray-color)
+  }
+  .magazine-input-row .field_error,
+  .magazine-input-row .field_valid {
+    border-color: #61C074!important;
+    background-image:url(../images/view-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 18px auto;
+}
+.magazine-input-row .field_error {
+    border-color: #eb7c7d!important;
+    background-image:url(../images/error-icon.svg);
+    background-size: 14px auto;
+}
+.magazine-input-row {
+    padding-bottom: 20px;
+}
+.magazine-input-col.whatapp-field::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    bottom: 0;
+    right: inherit;
+    left: 24px;
+    margin: auto 0;
+    z-index: 1;
+    background-image: url(../images/whatsapp-icon.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 23px auto;
+}
+.whatapp-field {
+    position: relative;
+}
+.whatapp-field .input-field{
+    padding-left: 62px;
+}
+.magazine-input-row ._checkbox-radio input {
+    -webkit-appearance: auto;
+}
+.magazine-input-row ._checkbox-radio .magazine-label{
+    padding-bottom: 0px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.magazine-area {
+  padding-bottom: 140px;
+}
+.magazine-input-row:last-child {
+    padding-bottom:0px;
+}
+.magazine-input-row .golden-button {
+    font-size: 16px;
+    height: 52px;
+    font-family: var(--Montserrat-semi-fonts);
+}
+@media screen and (max-width:1440px) {
+    .magazine-form-box::after {
+        max-width: 425px;
+        bottom: -90px;
+    }
+}
+@media screen and (max-width:1400px) {
+    .magazine-form-box::after {
+        max-width: 330px;
+        bottom: -50px;
+    }
+}
+@media screen and (max-width:991px) {
+    .magazine-input-row {
+       flex-wrap: wrap;
+    }
+    .magazine-form-box {
+        padding:35px 20px;
+        border-radius: 0px;
+        background-image: url(https://marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/form_bg_new_mb.jpg);
+    }
+    .magazine-form-title h3 {
+        padding-bottom: 44px;
+        max-width: 320px;
+        line-height: 30px;
+    }
+    .magazine-form-title p {
+        max-width:240px;
+    }
+    .magazine-input-row ._checkbox-radio .magazine-label {
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 17px;
+        font-family: var(--Montserrat-light-fonts);
+    }
+    .magazine-form-box::after{
+        max-width: 188px;
+        bottom: initial;
+        top: 48px;
+        right: 0;
+        background-image: url(https://marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/magazine-mockup-mb.png);
+        background-position: right top;
+        width: 100%;
+    }
+    .magazine-form-box::after, .magazine-form-box::before {
+        border-radius: 0px;
+    }
+    .magazine-area {
+        padding: 0px 0px 30px 0px;
+    }
+}
+
+.exclusive_magazine ._form_element._x17442435._full_width._clear,.exclusive_magazine ._form_element._x23603340._full_width._clear {
+    display: none
+}
+
+.exclusive_magazine ._row._checkbox-radio label,.exclusive_magazine ._form-label {
+    font-size: 19px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 400;
+    display: block;
+    padding-bottom: 8px
+}
+
+.exclusive_magazine ._row._checkbox-radio label {
+    padding-bottom: 0;
+    display: inline-block
+}
+
+.exclusive_magazine ._form-content ._form_element {
+    padding-bottom: 20px;
+    width: 50%
+}
+
+.exclusive_magazine ._row._checkbox-radio input {
+    -webkit-appearance: auto
+}
+
+.exclusive_magazine ._form-fieldset ._form-label {
+    display: none
+}
+
+.exclusive_magazine ._form_element._x64600093._full_width ._field-wrapper,.exclusive_magazine ._form_element._x40420920._full_width,.exclusive_magazine ._form_element._x64600093._full_width,.exclusive_magazine ._button-wrapper._full_width {
+    width: 50.6%;
+    position: relative
+}
+
+.exclusive_magazine ._form_element._x64600093._full_width {
+    width: 100%
+}
+.exclusive_magazine ._submit:hover {
+    background-color: #fff;
+    color: #BD944E
+}
+
+.exclusive_magazine ._form-content {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.exclusive_magazine ._form_element._x50322157._full_width {
+    padding-right: 10px
+}
+
+.exclusive_magazine ._form_element._x96333256._full_width {
+    padding-left: 10px
+}
+
+.exclusive_magazine ._form_element._x64600093._full_width ._field-wrapper input[type=text] {
+    padding-left: 62px
+}
+
+.exclusive_magazine ._form_element._x64600093._full_width ._field-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    bottom: 0;
+    right: inherit;
+    left: 24px;
+    margin: auto 0;
+    z-index: 1;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzEwXzIxMTYpIj4KPHBhdGggZD0iTTAuNTExMDk3IDEyLjg0NjVDMC41MTA1MzkgMTQuODYzIDEuMDM3NDIgMTYuODMxOSAyLjAzOTI4IDE4LjU2NzRMMC40MTUyODMgMjQuNDk2OUw2LjQ4MzM4IDIyLjkwNThDOC4xNjE3MyAyMy44MTk1IDEwLjA0MjIgMjQuMjk4MiAxMS45NTMxIDI0LjI5ODNIMTEuOTU4MkMxOC4yNjY1IDI0LjI5ODMgMjMuNDAxNyAxOS4xNjUgMjMuNDA0NCAxMi44NTU2QzIzLjQwNTYgOS43OTgxNiAyMi4yMTYgNi45MjMxOCAyMC4wNTQ3IDQuNzYwMkMxNy44OTM4IDIuNTk3NDEgMTUuMDE5OCAxLjQwNTY5IDExLjk1NzcgMS40MDQzQzUuNjQ4NTkgMS40MDQzIDAuNTEzNzk1IDYuNTM3MzIgMC41MTExOSAxMi44NDY1IiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMTBfMjExNikiLz4KPHBhdGggZD0iTTAuMTAyNDY1IDEyLjg0MjlDMC4xMDE4MTMgMTQuOTMxOSAwLjY0NzU4MSAxNi45NzEzIDEuNjg1MTYgMTguNzY4OEwwLjAwMjkyOTY5IDI0LjkxMDlMNi4yODg2IDIzLjI2MjhDOC4wMjA1MSAyNC4yMDcxIDkuOTcwNDYgMjQuNzA0OSAxMS45NTQ3IDI0LjcwNTdIMTEuOTU5OEMxOC40OTQ1IDI0LjcwNTcgMjMuODE0MSAxOS4zODc3IDIzLjgxNjkgMTIuODUyNEMyMy44MTggOS42ODUxMiAyMi41ODU2IDYuNzA2NzkgMjAuMzQ3MSA0LjQ2NjMzQzE4LjEwODMgMi4yMjYxNCAxNS4xMzE2IDAuOTkxNTM3IDExLjk1OTggMC45OTAyMzRDNS40MjM5NSAwLjk5MDIzNCAwLjEwNTE2MiA2LjMwNzQ0IDAuMTAyNTU4IDEyLjg0MjlIMC4xMDI0NjVaTTMuODQ1NzIgMTguNDU5M0wzLjYxMTAyIDE4LjA4NjdDMi42MjQ0MiAxNi41MTggMi4xMDM2NyAxNC43MDUxIDIuMTA0NDIgMTIuODQzNkMyLjEwNjU2IDcuNDExNTQgNi41Mjc0IDIuOTkyMDkgMTEuOTYzNSAyLjk5MjA5QzE0LjU5NiAyLjk5MzIxIDE3LjA3MDEgNC4wMTk0NCAxOC45MzA5IDUuODgxNEMyMC43OTE3IDcuNzQzNTQgMjEuODE1NiAxMC4yMTg5IDIxLjgxNDkgMTIuODUxNkMyMS44MTI1IDE4LjI4MzcgMTcuMzkxNiAyMi43MDM3IDExLjk1OTggMjIuNzAzN0gxMS45NTU5QzEwLjE4NzIgMjIuNzAyOCA4LjQ1MjYgMjIuMjI3OCA2LjkzOTg2IDIxLjMzMDJMNi41Nzk4NiAyMS4xMTY3TDIuODQ5ODEgMjIuMDk0N0wzLjg0NTcyIDE4LjQ1OTJWMTguNDU5M1oiIGZpbGw9InVybCgjcGFpbnQxX2xpbmVhcl8xMF8yMTE2KSIvPgo8cGF0aCBkPSJNOC45OTYyMSA3Ljg4Nzk0QzguNzc0MjYgNy4zOTQ2NCA4LjU0MDY3IDcuMzg0NjggOC4zMjk2MSA3LjM3NjAzQzguMTU2NzcgNy4zNjg1OSA3Ljk1OTE5IDcuMzY5MTUgNy43NjE3OSA3LjM2OTE1QzcuNTY0MjEgNy4zNjkxNSA3LjI0MzE5IDcuNDQzNDggNi45NzE4NCA3LjczOTc1QzYuNzAwMjEgOC4wMzYzMSA1LjkzNDgxIDguNzUyOTYgNS45MzQ4MSAxMC4yMTA1QzUuOTM0ODEgMTEuNjY4MiA2Ljk5NjQ5IDEzLjA3NjkgNy4xNDQ0OSAxMy4yNzQ3QzcuMjkyNjggMTMuNDcyMiA5LjE5NDA3IDE2LjU1OTEgMTIuMjA1NCAxNy43NDY2QzE0LjcwODEgMTguNzMzNSAxNS4yMTc0IDE4LjUzNzIgMTUuNzYwNiAxOC40ODc4QzE2LjMwMzggMTguNDM4NSAxNy41MTM1IDE3Ljc3MTMgMTcuNzYwMyAxNy4wNzk1QzE4LjAwNzMgMTYuMzg3OCAxOC4wMDczIDE1Ljc5NDggMTcuOTMzMiAxNS42NzA5QzE3Ljg1OTIgMTUuNTQ3NSAxNy42NjE2IDE1LjQ3MzMgMTcuMzY1MyAxNS4zMjUyQzE3LjA2OSAxNS4xNzcxIDE1LjYxMjQgMTQuNDYwMyAxNS4zNDA5IDE0LjM2MTRDMTUuMDY5MiAxNC4yNjI2IDE0Ljg3MTcgMTQuMjEzMyAxNC42NzQyIDE0LjUxQzE0LjQ3NjYgMTQuODA2MiAxMy45MDkyIDE1LjQ3MzMgMTMuNzM2MyAxNS42NzA5QzEzLjU2MzYgMTUuODY5IDEzLjM5MDYgMTUuODkzNiAxMy4wOTQ0IDE1Ljc0NTRDMTIuNzk4IDE1LjU5NjggMTEuODQzOCAxNS4yODQzIDEwLjcxMTggMTQuMjc1MUM5LjgzMTA5IDEzLjQ4OTggOS4yMzY0OSAxMi41MiA5LjA2MzY1IDEyLjIyMzRDOC44OTA4MSAxMS45MjcyIDkuMDQ1MTQgMTEuNzY2NiA5LjE5MzcgMTEuNjE5QzkuMzI2ODEgMTEuNDg2MyA5LjQ5MDA3IDExLjI3MzEgOS42MzgzNSAxMS4xMDAxQzkuNzg2MDcgMTAuOTI3MSA5LjgzNTM3IDEwLjgwMzcgOS45MzQxNiAxMC42MDYxQzEwLjAzMyAxMC40MDgzIDkuOTgzNTYgMTAuMjM1MyA5LjkwOTYxIDEwLjA4NzFDOS44MzUzNyA5LjkzODkyIDkuMjU5NjUgOC40NzM4IDguOTk2MjEgNy44ODgwMyIgZmlsbD0id2hpdGUiLz4KPC9nPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzEwXzIxMTYiIHgxPSIxMS45MDk4IiB5MT0iMjQuNDk2OSIgeDI9IjExLjkwOTgiIHkyPSIxLjQwNDMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzFGQUYzOCIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM2MEQ2NjkiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDFfbGluZWFyXzEwXzIxMTYiIHgxPSIxMS45MDk5IiB5MT0iMjQuOTEwOSIgeDI9IjExLjkwOTkiIHkyPSIwLjk5MDIzNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRjlGOUY5Ii8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0id2hpdGUiLz4KPC9saW5lYXJHcmFkaWVudD4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xMF8yMTE2Ij4KPHJlY3Qgd2lkdGg9IjIzLjgyIiBoZWlnaHQ9IjI0IiBmaWxsPSJ3aGl0ZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAwLjk5MDIzNCkiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 23px auto
+}
+.exclusive_magazine .main_form_bg {
+    min-height: 275px
+}
+
+.exclusive_magazine ._error._below {
+    display: none
+}
+
+.exclusive_magazine ._has_error {
+    border-color: #eb7c7d!important;
+    color: #102a66!important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ny45NyA0Ny45NyIgZmlsbD0iI2ViN2M3ZCI+PGcgaWQ9IkxhYWdfMiIgZGF0YS1uYW1lPSJMYWFnIDIiPjxnIGlkPSJDYXBhXzEiIGRhdGEtbmFtZT0iQ2FwYSAxIj48cGF0aCBkPSJNMjguMjMsMjQsNDcuMDksNS4xMkEzLDMsMCwwLDAsNDIuODUuODhMMjQsMTkuNzQsNS4xMi44OEEzLDMsMCwwLDAsLjg4LDUuMTJMMTkuNzQsMjQsLjg4LDQyLjg1QTMsMywwLDAsMCwzLDQ4YTMsMywwLDAsMCwyLjEyLS44OEwyNCwyOC4yMyw0Mi44NSw0Ny4wOWEzLDMsMCwwLDAsNC4yNC00LjI0WiIvPjwvZz48L2c+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 14px auto
+}
+
+.exclusive_magazine ._has_valid {
+    border-color: #61C074!important;
+    color: #102A66!important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OTAuMDUgNDkwLjA1Ij48ZyBpZD0iTGFhZ18yIiBkYXRhLW5hbWU9IkxhYWcgMiIgZmlsbD0iIzU2YmY3OCI+PGcgaWQ9IkNhcGFfMSIgZGF0YS1uYW1lPSJDYXBhIDEiPjxwYXRoIGQ9Ik00MTguMjcsNDE4LjI3Yzk1LjctOTUuNjksOTUuNy0yNTAuOCwwLTM0Ni41cy0yNTAuOC05NS42OS0zNDYuNSwwLTk1LjY5LDI1MC44MSwwLDM0Ni41UzMyMi42Nyw1MTQsNDE4LjI3LDQxOC4yN1pNMTU3LjE4LDIwNy41OGw1NS4wOSw1NS4wOUwzMzMsMTQyLjA3bDQyLjcsNDIuNy0xMjAuNiwxMjAuNi00Mi44LDQyLjctNDIuNy00Mi43LTU1LjEtNTUuMVoiLz48L2c+PC9nPjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 18px auto
+}
+
+.exclusive_magazine ._field-wrapper input[type=text]:-webkit-autofill {
+    -webkit-text-fill-color: #102a66!important
+}
+
+.exclusive_magazine ._field-wrapper input[type=text]:-webkit-autofill,.exclusive_magazine ._field-wrapper input[type=text]:-webkit-autofill:hover,.exclusive_magazine ._field-wrapper input[type=text]:-webkit-autofill:focus,.exclusive_magazine ._field-wrapper input[type=text]:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #fff inset!important
+}
+
+.exclusive_magazine ._field-wrapper input::placeholder {
+    color: #BBC2C5
+}
+
+.exclusive_magazine ._field-wrapper input::-webkit-input-placeholder {
+    color: #BBC2C5
+}
+
+.exclusive_magazine ._field-wrapper input::-moz-placeholder {
+    color: #BBC2C5
+}
+
+.exclusive_magazine ._field-wrapper input:-ms-input-placeholder {
+    color: #BBC2C5
+}
+
+.exclusive_magazine ._field-wrapper input::-moz-placeholder {
+    color: #BBC2C5
+}
+
+.exclusive_magazine .phn_ajax_loading::after {
+    margin-top: 0!important;
+    top: 50%!important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+@media screen and (max-width: 991px) {
+    .exclusive_magazine ._form-label {
+        display:none
+    }
+
+    .exclusive_magazine ._form-content ._form_element,.exclusive_magazine ._form_element._x64600093._full_width ._field-wrapper,.exclusive_magazine ._form_element._x40420920._full_width,.exclusive_magazine ._form_element._x64600093._full_width,.exclusive_magazine ._button-wrapper._full_width {
+        width: 100%
+    }
+
+    .exclusive_magazine ._form_element._x50322157._full_width {
+        padding-right: 0
+    }
+
+    .exclusive_magazine ._form_element._x96333256._full_width {
+        padding-left: 0
+    }
+
+    .exclusive_magazine ._form_element._x64600093._full_width ._field-wrapper input[type=text] {
+        padding-left: 52px
+    }
+
+    .exclusive_magazine ._row._checkbox-radio label {
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFF
+    }
+}

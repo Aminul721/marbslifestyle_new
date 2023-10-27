@@ -1,0 +1,159 @@
+.blue_newslater {
+    padding: 20px 0;
+    min-height: 115px;
+}
+.news_letter_title p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.news_letter_title p > span {
+    display: inline-block;
+    padding-right: 14px;
+}
+.news_letter_title p span > img {
+    filter: grayscale(0);
+    width: 34px !important;
+    display: inline-block;
+}
+.news_letter_submit_box {
+    width: 51.2%;
+    padding-left: 20px;
+}
+.news_letter_submit_box ._form-content {
+    position: relative;
+}
+.blue_newslater ._form-label {
+    display: none !important;
+}
+.news_letter_submit_box input[type=text] {
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 1;
+    font-family:  var(--body-fonts);
+    color: #1e1e1e;
+    height: 52px;
+    outline-style: none;
+    background-color: var(--white-color);
+    border: 1px solid var(--white-color);
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 10px 5px 28px;
+}
+.news_letter_submit_box button {
+    width: 100%;
+    max-width: 128px;
+    height: 52px;
+    border: 1px solid var(--golden-color);
+    background-color: var(--golden-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    font-family: var(--body-fonts);
+    cursor: pointer;
+    color: var(--white-color);
+    text-transform: uppercase;
+    border-radius: 0 5px 5px 0;
+    transition: all .3s;
+    padding: 5px 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    outline: none;
+}
+.blue_newslater button:hover,
+.news_letter_submit_box button:hover {
+    background-color: var(--white-color);
+    color: var(--golden-color);
+}
+@media screen and (max-width: 991px) {
+ .blue_newslater {
+    padding: 30px 0;
+} 
+.blue_newslater .content_left_part { align-items: flex-start; }
+.news_letter_title {
+    padding-bottom: 13px;
+}
+.news_letter_title p span { padding-right: 0; }
+.news_letter_title p span > span {
+    display: inline-block;
+    margin-top: 25px;
+}
+.news_letter_submit_box {
+    width: 100%;
+    padding-left: 0;
+}
+}
+
+
+.news_letter_modify ._form-label {
+    display: none!important
+}
+.news_letter_modify ._field-wrapper input[type=text]:-webkit-autofill {
+    -webkit-text-fill-color: #102a66!important
+}
+.news_letter_modify ._field-wrapper input[type=text]:-webkit-autofill,
+.news_letter_modify ._field-wrapper input[type=text]:-webkit-autofill:hover,
+.news_letter_modify ._field-wrapper input[type=text]:-webkit-autofill:focus,
+.news_letter_modify ._field-wrapper input[type=text]:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #fff inset!important
+}
+.news_letter_modify ._error._below {
+    display: none
+}
+.news_letter_modify ._has_error {
+    border-color: #eb7c7d!important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ny45NyA0Ny45NyIgZmlsbD0iI2ViN2M3ZCI+PGcgaWQ9IkxhYWdfMiIgZGF0YS1uYW1lPSJMYWFnIDIiPjxnIGlkPSJDYXBhXzEiIGRhdGEtbmFtZT0iQ2FwYSAxIj48cGF0aCBkPSJNMjguMjMsMjQsNDcuMDksNS4xMkEzLDMsMCwwLDAsNDIuODUuODhMMjQsMTkuNzQsNS4xMi44OEEzLDMsMCwwLDAsLjg4LDUuMTJMMTkuNzQsMjQsLjg4LDQyLjg1QTMsMywwLDAsMCwzLDQ4YTMsMywwLDAsMCwyLjEyLS44OEwyNCwyOC4yMyw0Mi44NSw0Ny4wOWEzLDMsMCwwLDAsNC4yNC00LjI0WiIvPjwvZz48L2c+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-position: right 140px center;
+    background-size: 14px auto
+}
+.news_letter_submit_box button {
+    max-width: 102px;
+    font-size: 14px;
+    text-transform: capitalize
+}
+
+.news_letter_submit_box input[type=text] {
+    padding-left: 16px;
+    font-size: 14px!important
+}
+
+.news_letter_submit_box input[type=text]::placeholder {
+    color: rgba(30,30,30,.6)
+}
+
+.news_letter_submit_box input[type=text]::-webkit-input-placeholder {
+    color: rgba(30,30,30,.6)
+}
+
+.news_letter_submit_box input[type=text]::-moz-placeholder {
+    color: rgba(30,30,30,.6)
+}
+
+.news_letter_submit_box input[type=text]::-ms-input-placeholder {
+    color: rgba(30,30,30,.6)
+}
+
+.news_letter_submit_box input[type=text]::-moz-placeholder {
+    color: rgba(30,30,30,.6)
+}
+
+.news_letter_submit_box ._has_error {
+    background-position: right 110px center
+}
+
+@media screen and (max-width: 991px) {
+    .news_letter_submit_box input[type=text] {
+        font-size:15px!important
+    }
+
+    .news_letter_submit_box button {
+        font-weight: 500
+    }
+}
+
+.field_error .tp_input_filed {
+    border-color: #eb7c7d!important;
+    color: #102a66!important
+}

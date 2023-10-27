@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Marbslifestyle Redesign</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
+
+    </head>
+    <body>
+        <header class="header_container sticky_header">
+            <div class="header_area plr">
+                <div class="marquee_style_area plr">
+                    <div class="news_rating_box center-content">
+                        <div class="news_rating_box_inner position-relative">
+                            <div class="marquee_item_wrap flex-wrap justify-content-between " id="marquee_json">
+                                <div class="marquee_item_box align-center flex-nowrap">
+                                    <div class="marquee_item_icon">
+                                        <img src="assets/images/check.svg" alt="marbslifestyle check icon"/>
+                                    </div>
+                                    <div class="marquee_item_prices">
+                                        <strong class="sf fw-300 font-s16">Discover the hidden secrets from Marbella</strong>
+                                    </div>
+                                </div>
+
+                                <div class="marquee_item_box align-center flex-nowrap">
+                                    <div class="marquee_item_icon">
+                                        <img src="assets/images/check.svg" alt="marbslifestyle check icon"/>
+                                    </div>
+                                    <div class="marquee_item_prices">
+                                        <strong class="sf fw-300 font-s16">Early acces to the best and newest venues</strong>
+                                    </div>
+                                </div>
+
+                                <div class="marquee_item_box align-center flex-nowrap">
+                                    <div class="marquee_item_icon">
+                                        <img src="assets/images/check.svg" alt="marbslifestyle check icon"/>
+                                    </div>
+                                    <div class="marquee_item_prices">
+                                        <strong class="sf fw-300 font-s16">Local experts with over 15 years experience</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="rating_wrap position-absolute left0 top0 flex-wrap align-center">
+                                <div class="rating_box flex-wrap flex-nowrap align-center">
+                                    <div class="rating_box_inner flex-wrap flex-nowrap align-center">
+                                        <div class="star_box_wrap flex-wrap flex-nowrap align-center">
+                                            <div class="feedback_star">
+                                                <img src="assets/images/header_star_single.svg" alt="Header star rating" />
+                                            </div>
+                                            <span class="sf fw-300 font-s16">9 / 10</span>
+                                        </div>
+                                        
+                                        <div class="total_review">
+                                            <small class="sf fw-300 font-s16">55 reviews</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="trustpilot_img">
+                                        <img src="assets/images/logo_trustpilot.svg" alt="trustpilot" />
+                                    </div>
+                                </div>
+
+                                <div class="footer_socila_media_box">
+                                    <ul class="flex-wrap align-center">
+                                        <li class="fb_social">
+                                            <a href="https://www.facebook.com/Marbslifestyle/" class="position-relative" target="_blank" rel="ugc">
+                                                <img class="normal_icon" src="assets/images/social_facebook_logo_icon.svg" alt="marbslifestyle social icon"/>
+                                                <img class="hover_icon position-absolute left0 top0" src="assets/images/social_facebook_logo_icon_hover.svg" alt="marbslifestyle social icon"/>
+                                            </a>
+                                        </li>
+
+                                        <li class="ins_social">
+                                            <a href="https://www.instagram.com/marbslifestyle.com_/?hl=en" class="position-relative" target="_blank" rel="ugc">
+                                                <img class="normal_icon" src="assets/images/social_instagram_logo_icon.svg" alt="marbslifestyle social icon"/>
+                                                <img class="hover_icon position-absolute left0 top0" src="assets/images/social_instagram_logo_icon_hover.svg" alt="marbslifestyle social icon"/>
+                                            </a>
+                                        </li>
+
+                                        <li class="youtube">
+                                            <a href="https://www.youtube.com/@Marbslifestyle" class="position-relative" target="_blank" rel="ugc">
+                                                <img class="normal_icon" src="https://marbslifestyle.com/wp-content/uploads/2022/10/youtube-normal.svg" alt="marbslifestyle social icon"/>
+                                                <img class="hover_icon position-absolute left0 top0" src="https://marbslifestyle.com/wp-content/uploads/2022/10/youtube-hover.svg" alt="marbslifestyle social icon"/>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="header_wrap center-content">
+                    <div class="header_box position-relative flex-wrap align-center">
+                        <div class="logo_wrap">
+                            <a class="only_desktop_view" href="#"><img src="assets/images/logo-marbslifestyle.svg" alt="marbslifestyle logo"/></a>
+                            <a class="only_mobile_view" href="#"><img src="assets/images/crown-marbslifestyle-leftaligned.svg" alt="marbslifestyle logo"/></a>
+                        </div>
+
+                        <nav class="main_menu_wrap">
+                            <ul id="menu" class="menu_list flex-wrap align-center justify-content-between">
+                                <li class="position-relative position-content-after left0 top0 menu_map_pin font-s16 fw-300"><a class="position-relative ion-down position-content-before left0 top0" href="#">Location &amp; Services Guide</a>
+                                    <ul class="position-content-before position-content-after left0 top0 position-absolute">
+                                        <li class="font-s16 fw-300"><a href="#">Beach & Pool Clubs</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Restaurants</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Hotels & Resorts</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Night Clubs</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Golf Clubs & Courses</a></li>
+                                        <li class="view_all_btn font-s16 fw-300"><a class="position-content-after left0 top0 position-relative" href="#">View all Locations</a></li>
+                                    </ul>
+                                </li>
+                                <li class="position-relative position-content-after left0 top0 font-s16 fw-300"><a class="position-relative ion-down position-content-before left0 top0" href="#">Inspiration</a>
+                                    <ul class="position-content-before position-content-after left0 top0 position-absolute left0 top0">
+                                        <li class="font-s16 fw-300"><a href="#">Blogs</a>
+                                            <ul class="position-absolute left0 top0 position-content-after left0 top0 flex-wrap align-center child-sub-menu">
+                                                <li class="font-s16 fw-300"><a href="#">Tips</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">Restaurants</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">Thing To Do</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">Hotels & Resorts</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">Holidays</a></li>
+                                                <li class="view_all_btn font-s16 fw-300"><a class="position-content-after left0 top0 position-relative" href="#">View all Blogs</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="font-s16 fw-300"><a href="#">Our Choices</a>
+                                            <ul class="position-absolute left0 top0 position-content-after left0 top0 flex-wrap align-center child-sub-menu">
+                                                <li class="font-s16 fw-300"><a href="#">About Marbella</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">History of Marbella</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">Marbella FAQ</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">What to do in Marbella</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">What to do with kids in Marbella</a></li>
+                                                <li class="view_all_btn font-s16 fw-300"><a class="position-content-after left0 top0 position-relative" href="#">View all Articles</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="font-s16 fw-300"><a href="#">Marbella & Surroundings</a>
+                                            <ul class="position-absolute left0 top0 position-content-after left0 top0 flex-wrap align-center child-sub-menu">
+                                                <li class="font-s16 fw-300"><a href="#">Top 25 Restaurants in Marbella</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">Top 10 Beach Clubs in Marbella</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">Top 10 Restaurants in Malaga</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">Top 10 Golf Courses in Marbella</a></li>
+                                                <li class="font-s16 fw-300"><a href="#">Top 6 Paella in Marbella</a></li>
+                                                <li class="view_all_btn font-s16 fw-300"><a class="position-content-after left0 top0 position-relative" href="#">View all Our Choices</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="position-relative position-content-after left0 top0 font-s16 fw-300"><a class="position-relative ion-down position-content-before left0 top0" href="#">Rentals</a>
+                                    <ul class="immediate_sub_menu position-content-before position-content-after left0 top0 position-absolute left0 top0">
+                                        <li class="font-s16 fw-300"><a href="#">Apartments</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Penthouses</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Houses</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Villas</a></li>
+                                        <li class="view_all_btn font-s16 fw-300"><a class="position-content-after left0 top0 position-relative" href="#">View all Rentals</a></li>
+                                    </ul>
+                                </li>
+                                <li class="position-relative position-content-after left0 top0 font-s16 fw-300"><a class="position-relative ion-down position-content-before left0 top0" href="#">Properties</a>
+                                    <ul class="immediate_sub_menu position-content-before position-content-after left0 top0 position-absolute left0 top0">
+                                        <li class="font-s16 fw-300"><a href="#">Apartments</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Penthouses</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Houses</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">Villas</a></li>
+                                        <li class="font-s16 fw-300"><a href="#">New Developments</a></li>
+                                        <li class="view_all_btn font-s16 fw-300"><a class="position-content-after left0 top0 position-relative" href="#">View all Properties</a></li>
+                                    </ul>
+                                </li>
+                                <li class="font-s16 fw-300"><a href="#">About us</a></li>
+                            </ul>
+
+                            <div class="menu_search_bx position-absolute left0 top0">
+                                <div class="menu_search_col position-relative">
+                                    <input id="menu_search_field" class="border border-radius-btn" type="text" placeholder="What are you looking for?">
+                                    <button class="menu_search_icon position-absolute left0 top0"></button>
+                                </div>
+                            </div>
+                        </nav>
+
+                        <div class="header_right_wrap position-absolute right0 top0 align-center flex-nowrap margin-0-auto">
+                            <div class="header_btn_wrap commen_btn_wrap flex-wrap align-center">
+                                <div class="btn_wrap event_btn_wrap flex-wrap align-center">
+                                    <a class="commen_btn event_btn header_btn golden-bg-color font-s16 fw-300 flex-wrap align-center flex-nowrap" href="#"><img src="assets/images/ion_calendar.svg" alt="marbslifestyle button key" />Events</a>
+                                </div>
+        
+                                <div class="btn_wrap signin_btn_wrap flex-wrap align-center">
+                                    <a class="commen_btn signin_btn header_btn success-bg-color font-s16 fw-300 flex-wrap align-center flex-nowrap" href="#"><img src="assets/images/icon_key_button_header2.svg" alt="marbslifestyle button key" /><span>Sign in</span></a>
+                                </div>
+
+                                <div class="hamburger_bar position-absolute left0 top0"><span></span><span></span><span></span></div>
+                            </div>
+                        </div>
+
+                        <div class="mobile_menu">
+                            <div id="menu_holder" class="white-bg-color"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="single_banner_area plr position-relative bg-cover no-repeat px-70">
+            <style>
+                .single_banner_area {
+                    background: linear-gradient(0deg, rgba(16, 42, 102, 0.62), rgba(16, 42, 102, 0.62)) no-repeat, url(https://marbslifestyle.com/wp-content/webp-express/webp-images/uploads/2023/02/Puerto-banus-website-5-1-1920x320.jpg.webp);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                @media only screen and (max-width: 580px) {
+                    .single_banner_area {background-size: auto 500px!important;}
+                }
+
+            </style>
+            <div class="single_banner_wrap center-content pb-30 pbmb-40 pr-380">
+                <div class="breadcrumbs_info mlf w-930">
+                    <span><a href="https://ml-potimize.ddmg.tech" class="home"><span>Home</span></a></span>
+                    <i class="ion-ios-arrow-forward"></i> 
+                    <span><a href="https://ml-potimize.ddmg.tech" class="home"><span>About Marbella</span></a></span>
+                    <i class="ion-ios-arrow-forward"></i> 
+                    <span><span class="post post-page current-item">faq</span></span>
+                </div>
+
+                <div class="single_info_area position-relative w-930">
+                    <h1 class="sf white-color pt-0 pr-0 min-height-auto">About Marbella, FAQ</h1>
+                    <div class="short_content show-on-dsk mlf">
+                        <p class="make-3line only_desktop_view">Marbella is famous for its beaches, luxury beach resorts, vibrant nightlife, and scenic views, but there's much more to this seaside town. Away from the glitz and glamor associated with the playground of the social elite, Marbella is a cultural and historical heritage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="plr px-70 title-content-area faq_wcontrol_area position-relative">
+            <div class="center-content title-content faq_wcontrol position-relative">
+                <div class="typescale-style">
+                    <h2>Frequently asked questions about Marbella</h2>
+                    <p>Welcome to marbslifestyle.com, your ultimate guide to experiencing Marbella to the fullest! Our team is dedicated to ensuring that you have the best possible experience in this beautiful coastal town by answering all your questions and providing you with all the information you need. Marbella is a sought-after destination known for its luxurious lifestyle, stunning beaches, vibrant nightlife, and world-class golf courses. This FAQ will provide you with all the essential information you need to know about Marbella, from its location and weather to its popular tourist attractions and outdoor activities. We'll also answer some of the most commonly asked questions about Marbella, what the local currency is, and how to get there. So sit back, relax, and get ready to discover everything that Marbella has to offer. </p>
+                    <ul>
+                        <li><a href="#">Questions about Marbella</a></li>
+                        <li><a href="#">Questions about Puerto Banús</a></li>
+                        <li><a href="#">Questions about Estepona</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq_tgl_area faq_bgimg px-70 plr">
+            <div class="faq_tgl_wrap center-content">
+                <div class="faq_tgl_inner_wrap typescale-style">
+                    <div class="faq_title">
+                        <h5>FAQ Marbella</h5>
+                        <p>
+                            This FAQ provides useful information about Marbella, a coastal town located in the province of Malaga in southern Spain. Marbella is famous for its luxurious lifestyle, beautiful beaches, vibrant nightlife, and
+                            world-class golf courses. Visitors can enjoy a Mediterranean climate with mild winters and hot summers, and a variety of outdoor activities such as hiking, water sports, and golf. The best time to visit is during the
+                            summer months, and travelers can reach Marbella by flying into Malaga-Costa del Sol Airport.&nbsp;
+                        </p>
+                    </div>
+
+                    <div class="faq_tgl_bx">
+                        <div class="faq_tgl_row typescale-style">
+                            <div class="faq_tgl_title position-content-after position-absolute"><h6>What are the best beaches in Marbella?</h6></div>
+        
+                            <div class="faq_tgl_content">
+                                <p>Marbella is renowned for its beautiful beaches, and there are several stunning options to choose from. Some of the best beaches in Marbella include:</p>
+                                <ol>
+                                    <li>Playa de Nagüeles: A secluded beach nestled between Marbella and Puerto Banús, offering a peaceful escape from the crowds.</li>
+                                    <li>Playa de la Fontanilla: Located in the heart of Marbella, this beach boasts golden sands and crystal-clear waters.</li>
+                                    <li>Playa del Cable: A long stretch of sand located on the east side of Marbella, popular for its water sports.</li>
+                                    <li>Playa de Puerto Banús: A popular beach located in the famous port of Puerto Banús, known for its luxurious atmosphere.</li>
+                                    <li>Playa de Rio Real: A long and quiet beach, located near the Rio Real golf course and surrounded by natural sand dunes.</li>
+                                </ol>
+                                <p>Overall, there is a beach in Marbella to suit every taste, whether you’re looking for lively crowds, water sports, or peaceful relaxation.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq_tgl_row typescale-style">
+                            <div class="faq_tgl_title position-content-after position-absolute"><h6>What is the nightlife like in Marbella?</h6></div>
+                            <div class="faq_tgl_content">
+                                <p>Marbella is known for its vibrant nightlife, with a wide variety of bars, clubs, and restaurants to choose from. If you would like to have some inspiration check the <a href="#">nightlife blogs</a>.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq_tgl_row typescale-style">
+                            <div class="faq_tgl_title position-content-after position-absolute"><h6>What is the nightlife like in Marbella?</h6></div>
+                            <div class="faq_tgl_content">
+                                <p>Marbella is known for its vibrant nightlife, with a wide variety of bars, clubs, and restaurants to choose from. If you would like to have some inspiration check the. </p>
+                                <ul>
+                                    <li>Playa de Nagüeles: A secluded beach nestled between Marbella and Puerto Banús, offering a peaceful escape from the crowds.</li>
+                                    <li>Playa de la Fontanilla: Located in the heart of Marbella, this beach boasts golden sands and crystal-clear waters.</li>
+                                    <li>Playa del Cable: A long stretch of sand located on the east side of Marbella, popular for its water sports.</li>
+                                    <li>Playa de Puerto Banús: A popular beach located in the famous port of Puerto Banús, known for its luxurious atmosphere.</li>
+                                    <li>Playa de Rio Real: A long and quiet beach, located near the Rio Real golf course and surrounded by natural sand dunes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq_tgl_area px-70 plr">
+            <div class="faq_tgl_wrap center-content">
+                <div class="faq_tgl_inner_wrap typescale-style">
+                    <div class="faq_title">
+                        <h5>FAQ Marbella</h5>
+                        <p>
+                            This FAQ provides useful information about Marbella, a coastal town located in the province of Malaga in southern Spain. Marbella is famous for its luxurious lifestyle, beautiful beaches, vibrant nightlife, and
+                            world-class golf courses. Visitors can enjoy a Mediterranean climate with mild winters and hot summers, and a variety of outdoor activities such as hiking, water sports, and golf. The best time to visit is during the
+                            summer months, and travelers can reach Marbella by flying into Malaga-Costa del Sol Airport.&nbsp;
+                        </p>
+                    </div>
+                    
+                    <div class="faq_tgl_bx">
+                        <div class="faq_tgl_row typescale-style">
+                            <div class="faq_tgl_title position-content-after position-absolute"><h6>What are the best beaches in Marbella?</h6></div>
+        
+                            <div class="faq_tgl_content">
+                                <p>Marbella is renowned for its beautiful beaches, and there are several stunning options to choose from. Some of the best beaches in Marbella include:</p>
+                                <ol>
+                                    <li>Playa de Nagüeles: A secluded beach nestled between Marbella and Puerto Banús, offering a peaceful escape from the crowds.</li>
+                                    <li>Playa de la Fontanilla: Located in the heart of Marbella, this beach boasts golden sands and crystal-clear waters.</li>
+                                    <li>Playa del Cable: A long stretch of sand located on the east side of Marbella, popular for its water sports.</li>
+                                    <li>Playa de Puerto Banús: A popular beach located in the famous port of Puerto Banús, known for its luxurious atmosphere.</li>
+                                    <li>Playa de Rio Real: A long and quiet beach, located near the Rio Real golf course and surrounded by natural sand dunes.</li>
+                                </ol>
+                                <p>Overall, there is a beach in Marbella to suit every taste, whether you’re looking for lively crowds, water sports, or peaceful relaxation.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq_tgl_row typescale-style">
+                            <div class="faq_tgl_title position-content-after position-absolute"><h6>What is the nightlife like in Marbella?</h6></div>
+                            <div class="faq_tgl_content">
+                                <p>Marbella is known for its vibrant nightlife, with a wide variety of bars, clubs, and restaurants to choose from. If you would like to have some inspiration check the <a href="#">nightlife blogs</a>.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq_tgl_row typescale-style">
+                            <div class="faq_tgl_title position-content-after position-absolute"><h6>What is the nightlife like in Marbella?</h6></div>
+                            <div class="faq_tgl_content">
+                                <p>Marbella is known for its vibrant nightlife, with a wide variety of bars, clubs, and restaurants to choose from. If you would like to have some inspiration check the. </p>
+                                <ul>
+                                    <li>Playa de Nagüeles: A secluded beach nestled between Marbella and Puerto Banús, offering a peaceful escape from the crowds.</li>
+                                    <li>Playa de la Fontanilla: Located in the heart of Marbella, this beach boasts golden sands and crystal-clear waters.</li>
+                                    <li>Playa del Cable: A long stretch of sand located on the east side of Marbella, popular for its water sports.</li>
+                                    <li>Playa de Puerto Banús: A popular beach located in the famous port of Puerto Banús, known for its luxurious atmosphere.</li>
+                                    <li>Playa de Rio Real: A long and quiet beach, located near the Rio Real golf course and surrounded by natural sand dunes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="footer_area blue-bg plr">
+            <div class="footer center-content flex-wrap">
+                <div class="footer_widget footer_widget_logo only_mobile_view rm-desk"><div class="footer_logo"><img src="https://marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/footer_logo.svg" alt="marbslifestyle"></div></div>
+                <div class="footer_widget footer_widget1">
+                    <h5 class="sf fw-400 white-color">Popular locations</h5>
+                    <ul>
+                        <li><a href="#">Puente Romano</a></li>
+                        <li><a href="#">Marbella Club</a></li>
+                        <li><a href="#">Nosso Summer Club</a></li>
+                        <li><a href="#">Playa Padre</a></li>
+                        <li><a href="#">LEÑA</a></li>
+                        <li><a href="#">Tragabuches</a></li>
+                        <li><a href="#">Nikki Beach</a></li>
+                        <li><a href="#">Ocean Club</a></li>
+                        <li><a href="#">Oyana</a></li>
+                        <li><a href="#">Luuma</a></li>
+                        <li><a href="#">Thai Gallery</a></li>
+                        <li><a href="#">El Patio</a></li>
+                    </ul>
+                </div>
+                <div class="footer_widget footer_widget2">
+                    <h5 class="sf fw-400 white-color">Browse our guides</h5>
+                    <ul>
+                        <li><a href="#">Event guide</a></li>
+                        <li><a href="#">Location guide</a></li>
+                        <li><a href="#">Read our reviews</a></li>
+                        <li><a href="#">Marbella inspiration (blog)</a></li>
+                        <li><a href="#">What to do in Marbella</a></li>
+                        <li><a href="#">What to do with kids in Marbella</a></li>
+                        <li><a href="#">Top 25 restaurants</a></li>
+                        <li><a href="#">Top 10 hotels</a></li>
+                        <li><a href="#">Top 10 beach & pool clubs</a></li>
+                        <li><a href="#">Top 6 Luxury resorts</a></li>
+                        <li><a href="#">Top 10 restaurants Old Town</a></li>
+                        <li><a href="#">Top 15 breakfast</a></li>
+                        <li><a href="#">All rentals (coming soon)</a></li>
+                        <li><a href="#">Villa rentals (Coming soon)</a></li>
+                        <li><a href="#">Apartment rentals (coming soon)</a></li>
+                        <li><a href="#">New developments (coming soon)</a></li>
+                        <li><a href="#">Properties for sale (coming soon)</a></li>
+                        <li><a href="#">Apartments for sale (Coming soon)</a></li>
+                        <li><a href="#">Penthouses for sale (coming soon)</a></li>
+                        <li><a href="#">House for sale (coming soon)</a></li>
+                        <li><a href="#">Villas for sale (coming soon)</a></li>
+                        <li><a href="#">Boat & yacht rental</a></li>
+                        <li><a href="#">Premium Concierge Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer_widget footer_widget3">
+                    <h5 class="sf fw-400 white-color">About us</h5>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+                <div class="footer_widget footer_widget4">
+                    <h5 class="sf fw-400 white-color">Get In Contact</h5>
+                    <p><a href="https://marbslifestyle.com/">Marbslifestyle.com</a></p>
+                    <p>C. las Azaleas, 51 – 12<br> 29660 Marbella<br> Málaga, Spain</p>
+                    <p class="lifestyle_mail"><a href="mailto:info@marbslifestyle.nl">info@marbslifestyle.com</a><br>+31(0)6 1021 8338</p>
+                </div>
+                <div class="footer_widget footer_widget5">
+                    <h5 class="alf fw-400 white-color">Unlock the Secrets</h5>
+                    <h6 class="white-color fw-400 sf d-flex flex-nowrap align-center">Subscribe to our <span class="golden-color"> newsletter</span> <img loading="lazy" src="https://marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/icon_key_button3.svg" alt="icon key"></h6>
+                    <div class="news_letter_submit_box">
+                        <div class="_form-content">
+                            <input type="text" id="email" name="email" placeholder="Type your email" required="" data-name="email">
+                            <button id="_form_48_submit" class="_submit" type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="footer_socila_media_box">
+                        <p>Follow us on our socials</p>
+                        <ul class="d-flex align-center">
+                            <li class="fb_social">
+                                <a href="https://www.facebook.com/Marbslifestyle/" target="_blank" rel="ugc">
+                                    <img width="10" height="18" loading="lazy" class="normal_icon" src="https://marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/social_facebook_logo_icon_footer.svg" alt="facebook">
+                                    <img width="10" height="18" loading="lazy" class="hover_icon" src="https://marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/social_facebook_logo_icon_hover.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="ins_social">
+                                <a href="https://www.instagram.com/marbslifestyle.com_/?hl=en" target="_blank" rel="ugc">
+                                    <img width="20" height="20" loading="lazy" class="normal_icon" src="https://marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/social_instagram_logo_icon_footer.svg" alt="instagram">
+                                    <img width="20" height="20" loading="lazy" class="hover_icon" src="https://marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/social_instagram_logo_icon_hover.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li class="youtube">
+                                <a href="#" target="_blank" rel="ugc">
+                                    <img width="22" height="15" loading="lazy" class="normal_icon" src="https://marbslifestyle.com/wp-content/uploads/2022/11/youtube-white.svg" alt="youtube">
+                                    <img width="22" height="15" loading="lazy" class="hover_icon" src="https://marbslifestyle.com/wp-content/uploads/2022/11/youtube-white-hover.svg" alt="youtube">
+                                </a>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright_area blue-bg plr">
+            <div class="copyright_wrap center-content">
+                <div class="copyright_box">
+                    <p>© 2023 All rights reserved</p>
+                    <ul id="menu-footer-menu" class="menu"><li id="menu-item-3515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-3515"><a rel="privacy-policy" href="https://marbslifestyle.com/privacy-policy/">Privacy Policy</a></li>
+                    <li id="menu-item-3516" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3516"><a href="https://marbslifestyle.com/cookie-policy/">Cookie Policy</a></li>
+                    </ul>                        
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.slicknav.js"></script>
+        <script src="assets/js/jquery.marquee.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="assets/js/s-custom.js"></script>
+        <script src="assets/js/jquery.dropzie.js"></script>
+        <script src="assets/js/date-picker.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
+        <script>
+            (function($){
+                if (document.querySelector("#phone")) {
+                const input = document.querySelector("#phone");
+                    window.intlTelInput(input, {
+                        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+                        separateDialCode: true,
+                        enablePlaceholder: false,
+                        initialCountry: "NL",
+
+                    });
+                }
+
+
+                if(matchMedia('only screen and (max-width: 1280px)').matches) {
+                    var mwo = jQuery('.marquee_item_wrap');
+                    mwo.marquee({
+                        speed: 30,
+                        gap: 0,
+                        delayBeforeStart: 0,
+                        direction: 'left',
+                        duplicated: true,
+                        pauseOnHover: true,
+                        startVisible: true
+                    });
+
+                    //pause and resume links
+                    jQuery('.pause').click(function(e){
+                        e.preventDefault();
+                        jQuery(mwo).trigger('pause');
+                    });
+                    jQuery('.resume').click(function(e){
+                        e.preventDefault();
+                        jQuery(mwo).trigger('resume');
+                    });
+
+                    //toggle
+                    jQuery('.toggle').hover(function(e){
+                        jQuery(mwo).trigger('pause');
+                    },function(){
+                        jQuery(mwo).trigger('resume');
+                    })
+                    .click(function(e){
+                        e.preventDefault();
+                    })
+                };
+
+                // About marbella FAQ js 16/10/2023 ais
+                let tglitem = jQuery(".faq_tgl_content");
+                jQuery("body").on('click', '.faq_tgl_title', function(e) {
+                    e.preventDefault();
+                    if(jQuery(this).parents(".faq_tgl_row").hasClass( "active" )) {
+                        jQuery(this).parents(".faq_tgl_row").find(tglitem).slideUp();
+                        jQuery(this).parents(".faq_tgl_row").removeClass("active");
+                    }else {
+                        jQuery(this).parents(".faq_tgl_row").siblings().removeClass("active");
+                        jQuery(this).parents(".faq_tgl_row").addClass("active");
+                        jQuery(this).parents(".faq_tgl_row").siblings().find(tglitem).slideUp();
+                        jQuery(this).parents(".faq_tgl_row").find(tglitem).slideDown();
+                    }
+                });
+            })(jQuery);
+        </script>
+        <script>
+            const elements = document.querySelectorAll('.read-more-by-ele-number');
+            elements.forEach((element)=>{
+                element.readMoreByElement({
+                    maxEle: 4,
+                    buttonHideText: "Read less",
+                    buttonShowText: "Read more",
+                });
+            });
+        </script>
+            
+    </body>
+</html>

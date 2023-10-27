@@ -1,0 +1,127 @@
+
+.work_together_area {  background-color: var(--white-color); }
+.work_together_wrap {
+    max-width: 930px;
+    padding-top: 88px;
+    padding-bottom: 57px;
+}
+.work_together_bx { gap: 0 60px; }
+.work_together_content { width: calc(calc(100% - 60px) / 2); }
+.contact_btn_wrap { gap: 16px 0;}
+.contact_btn_wrap .reservation_btn {
+    background-color: var(--golden-color);
+    border-color: var(--golden-color);
+}
+.contact_btn_wrap .reservation_btn:hover {
+    background-color: var(--white-color);
+    color: var(--golden-color);
+}
+.contact_btn_wrap .reservation_tel_btn {
+    background-color: var(--white-color);
+    border-color: var(--golden-color);
+    color: var(--golden-color);
+}
+.contact_btn_wrap .reservation_tel_btn:hover {
+    background-color: var(--golden-color);
+    color: var(--white-color);
+}
+.contact_btn_wrap .commen_btn {
+    height: 40px;
+    padding: 2px 18px;
+}
+.contact_btn_wrap .commen_btn span { padding-left: 24px;}
+.contact_btn_wrap .commen_btn span::before { left: 0; }
+
+.owner_content {
+    width: calc(calc(100% - 60px) / 2);
+    gap: 20px 0;
+    padding-top: 31px;
+}
+@media screen and (max-width: 991px) {
+    .work_together_area { overflow: hidden; }
+    .work_together_wrap {
+        max-width: initial;
+        padding-top: 40px;
+        padding-bottom: 36px;
+    }
+    .work_together_bx { gap: 40px 0; }
+    .owner_content,
+    .work_together_content { width: calc(calc(100% - 0px) / 1); }
+    .owner_personal_info {
+        border-radius: 0;
+        width: calc(calc(100% + 42px) / 1);
+        margin-left: -21px;
+    }
+    .contact_btn_wrap .commen_btn { width: 100%;}
+}
+
+/* where_find_area */
+.where_find_area { background-color: var(--white-color); }
+.where_find_wrap {
+    max-width: 930px;
+    padding-bottom: 48px;
+}
+.where_find_title h2 {
+    color: var(--blue-color);
+    padding-bottom: 20px;
+    font-weight: var(--fw-300);
+}
+.where_find_bx {
+    gap: 0 20px;
+    border: 1px solid #c9d3d6;
+    background-color: var(--light-gray-color);
+    border-radius: 6px;
+    padding: 20px;
+}
+.where_find_address {
+    width: calc(calc(100% - 20px) / 2);
+    padding: 0;
+}
+.where_find_address h6 {
+    font: normal 700 14px/19px var(--body-fonts);
+    text-transform: uppercase;
+    color: var(--blue-color);
+}
+.where_find_address h6 > span {
+    background-position: left top;
+    padding: 3px 0 3px 20px;
+}
+.where_find_address p {
+    color: var(--blue-color);
+    font: normal 400 14px/19px var(--Montserrat-light-fonts);
+    padding-bottom: 18px;
+}
+.footer_socila_media_box ul,
+    .footer_socila_media_box ul li {
+    padding: 0;
+    list-style-type: none;
+}
+.where_find_map {
+    width: calc(calc(100% - 20px) / 2);
+    padding: 0;
+}
+.where_find_map .google_map_btn {  margin: 0 0 16px 0; }
+.where_find_map #opening_map { height: 140px; }
+.where_find_map #opening_map img { width: 100%; }
+
+@media screen and (max-width: 991px) {
+    .where_find_area { overflow: hidden; }
+    .where_find_wrap {
+        max-width: initial;
+        padding-bottom: 48px;
+    }
+    .where_find_bx {
+        gap: 17px 0;
+        width: calc(calc(100% + 42px));
+        border-radius: 0;
+        margin-left: -21px;
+    }
+    .where_find_address {
+        width: calc(calc(100% - 0px) / 1);
+        display: block;
+    }
+    .where_find_title h2 { padding-bottom: 14px; }
+    .where_find_address p { padding-bottom: 0; }
+    .where_find_map { width: calc(calc(100% - 0px) / 1); }
+    .where_find_map .footer_socila_media_box { padding: 18px 0 0 0;  }
+}

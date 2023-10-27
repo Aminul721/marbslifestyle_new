@@ -1,0 +1,60 @@
+.weather-box {
+    padding-bottom:30px;
+}
+.annual_averages_panel {
+    padding-bottom: 20px;
+}
+.temperature-graph-container .chart,
+.temperature-graph-container .averages_table-wrap {
+    position: relative;
+    display: block;
+    background-color: var(--white-color);
+    padding: 12px 0px;
+    text-align: center;
+}
+.temperature-graph-container .averages_table td:first-of-type,
+.temperature-graph-container .averages_table th:first-of-type {
+    border-radius: 7px 0 0 7px;
+    background:#fff;
+}
+.temperature-graph-container .averages_table td.label+td, 
+.temperature-graph-container .averages_table td.label+th, 
+.temperature-graph-container .averages_table th.label+td, 
+.temperature-graph-container .averages_table th.label+th {
+    border-radius: 7px 0 0 7px;
+}
+.temperature-graph-container .averages_table td, 
+.temperature-graph-container .averages_table th {
+    margin: 0;
+    padding: 12px 0;
+    border-right: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 12px;
+}
+.temperature-graph-container .averages_table {
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    border-collapse: collapse;
+    table-layout: fixed
+}
+.temperature-graph-container .averages_table th {
+    background-color: #669fcf;
+    color: #fff;
+}
+.temperature-graph-container .averages_table td:last-of-type,
+.temperature-graph-container .averages_table th:last-of-type {
+    border-radius: 0 7px 7px 0;
+    border-right: 0;
+}
+@media screen and (max-width: 991px){
+    .annual_averages_panel {
+        max-width:100%;
+        overflow:auto;
+    }
+    .temperature-graph-container {
+        overflow:auto;
+        max-width:initial;
+        width:590px;
+    }
+}

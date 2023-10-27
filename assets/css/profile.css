@@ -1,0 +1,49 @@
+.owner_personal_info {
+    background-color: var(--light-gray-color);
+    border: 1px solid #c9d3d6;
+    border-radius: 6px;
+    padding: 20px 20px 18px 20px;
+    margin-bottom: 30px;
+}
+.owner_personal_info:last-child { margin-bottom: 0; }
+.owner_inner_bx { padding-right: 105px;}
+.owner_inner_bx h5 {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: var(--blue-color);
+    text-transform: uppercase;
+}
+.owner_inner_bx ul li,
+.owner_inner_bx span {
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: var(--primary-color);
+    display: inline-block;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+}
+.owner_inner_bx ul li {
+    display: block;
+    color: var(--primary-color);
+    padding-bottom: 8px;
+    text-transform: initial;
+}
+.owner_inner_bx ul li:last-child { padding-bottom: 0; }
+.owner_inner_bx ul li a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+.personal_profile_photo {
+    width: 96px;
+    top: -50px;
+    right: 0px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.personal_profile_photo img {
+    width: 100% !important;
+    box-shadow: 0 9px 13px 0 rgba(0,0,0,5%);
+    border-radius: 6px 6px 0px 0px !important;
+}

@@ -1,0 +1,235 @@
+@media only screen and (min-width: 992px){
+    .about-breadcurmb{
+        padding-left: 120px;
+    }
+}
+.find-us-style-img{
+    padding-left: 20px;
+}
+
+.find-us-style h4,
+.find-us-style h3,
+.find-us-style h2{
+    font-weight: 300;
+}
+
+.find-us-style h4,
+.find-us-style h3{
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -.02em;
+    font-family: var(--body-fonts);
+}
+
+.find-us-style  h5{
+    font-family: var(--body-fonts);
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -.02em;
+}
+
+.find-us-style h4{
+    font-size: 19px;
+}
+
+.about-us-result-slider .find-us-style h4{
+    padding-bottom: 20px;
+}
+
+.find-us-style p{
+    padding-bottom: 17px;
+}
+.find-us-style p strong{
+    font-family: var(--Montserrat-medium-fonts);
+    color: var(--blue-color);
+    font-weight: 500;
+}
+
+.find-us-style p a{
+    position: relative;
+    color: inherit;
+}
+.find-us-style p a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #69799f;
+}
+@media only screen and (min-width: 992px){
+    .find-us-style .golden-button{
+        max-width:227px;
+    }
+    .text-info-area::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 479px;
+        left: 0;
+        top: -120px;
+        z-index: -1;
+        background-image: url(https://cdn-hjemf.nitrocdn.com/FrpLbKcuZALztiQRqLjOcyxSSsdWOQWI/assets/images/optimized/rev-f93148e/marbslifestyle.com/wp-content/themes/marbslifestyle/assets/images/txt_page_bg1.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 293px auto;
+        filter: grayscale(100%);
+    }
+}
+.find-us-content {
+    width: 54.4%;
+    max-width: 558px;
+    margin-top: -4px;
+}
+
+.find-us-img {
+    width: 45.6%;
+    padding-left: 40px;
+}
+
+.find-us-img-left{
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.find-us-img img{
+    border-radius: 6px 0 0 6px;
+    -webkit-border-radius: 6px 0 0 6px;
+    -moz-border-radius: 6px 0 0 6px;
+    -ms-border-radius: 6px 0 0 6px;
+    -o-border-radius: 6px 0 0 6px;
+}
+
+.find-us-img-left img{
+    border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0 6px 6px 0;
+    -moz-border-radius: 0 6px 6px 0;
+    -ms-border-radius: 0 6px 6px 0;
+    -o-border-radius: 0 6px 6px 0;
+}
+
+.find-style-img-left{
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+
+.find-address-info-box{
+    border: 1px solid #c9d3d6;
+    padding: 28px 30px 25px 30px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.find-address-item-1,
+.find-address-item-2{
+    width: 39.5%;
+}
+
+.find-address-item-3{
+    width: calc(100% - 79%);
+}
+.find-us-block p,
+.find-us-block ul li,
+.find-us-block h5{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    padding-bottom: 11px;
+}
+
+.find-address-item-2 h5{
+    padding-left: 16px;
+    background-image: url(../images/icon_menu_location.svg);
+}
+
+.find-us-block ul li{
+    list-style: none;
+    font-family: var(--Montserrat-light-fonts);
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+
+.find-us-block p{
+    font-family: var(--Montserrat-light-fonts);
+    font-weight: 400;
+}
+
+.find-us-block ul{
+    padding: 0;
+}
+
+@media only screen and (min-width: 992px){
+    .find-us-block .golden-button{
+        margin-bottom: 15px;
+    }
+}
+
+.find-us-block .footer_socila_media_box{
+    padding-left: 0;
+}
+
+.find-us-block .footer_socila_media_box ul{
+    gap: 22px;
+}
+
+@media only screen and (max-width: 991px){
+    .find-us-style{
+        padding: 35px 20px 0 20px;
+    }
+    .find-us-content {
+        width: 100%;
+        max-width: 100%;
+    }
+    .about-us-result-slider{
+        padding-top: 0;
+    }
+    .about-us-result-slider .result-slider .owl-stage-outer{
+        padding-top: 40px 0;
+    }
+    .find-address-item{
+        width: 100%;
+    }
+    .find-address-info-box{
+        margin: 0 -20px;
+        padding: 16px 12px 24px 18px;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }   
+    .find-address-item:not(:last-child){
+        padding-bottom: 11px;
+    }
+    .find-address-item-3{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .find-address-item-3 h5{
+        order: 2;
+        padding-bottom: 24px;
+    }
+
+    .find-address-item-3 .golden-button{
+        order: 3;
+    }
+    .find-us-block{
+        padding-bottom: 42px;
+    }
+
+    .find-us-block .footer_socila_media_box{
+        padding-bottom: 22px;
+    }
+
+}
+
+

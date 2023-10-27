@@ -1,0 +1,239 @@
+.without-bannar-breadcurms .breadcrumbs_info {
+	padding-bottom:0px;
+}
+.without-bannar-breadcurms .breadcrumbs_info .ion-ios-arrow-forward,
+.without-bannar-breadcurms .breadcrumbs_info a,
+.without-bannar-breadcurms .breadcrumbs_info span {
+	text-shadow: none;
+	color:var(--blue-color);
+}
+.author-title h1 {
+	font-size:32px;
+	line-height: 36px;
+}
+.author-social-media a {
+	text-decoration:underline;
+}
+.author-social-media a img{
+	width: 24px;
+	object-fit:cover;
+	margin-right:10px;
+}
+.author-social-media ul li{
+	padding-left:20px;
+}
+.author-social-media ul li:first-child {
+	padding-left:0px;
+}
+.author-social-media strong {
+   line-height:20px;
+   padding-bottom:8px;
+}
+.author-social-media {
+    margin: 0 0 30px auto;
+    max-width: max-content;
+}
+.founder-author-profile {
+	min-width:160px;
+	width:160px;
+	padding-top: 40px;
+}
+.founder-author-photo {
+    width: 142px;
+    height: 142px;
+    top: -90px;
+    left: 20px;
+    z-index: 1;
+    border: 10px solid #FFF;
+    box-shadow: 0 0 10px rgba(131,131,131,.15);
+    border-radius: 50%;
+}
+.founder-author-photo img {
+	width:100%;
+	border-radius: 50%;
+}
+.author-info-bg {
+    box-shadow: 0 0 10px rgba(131,131,131,.15);
+    border-radius: 8px;
+    padding: 20px;
+}
+.founder-author-name h6 {
+	letter-spacing: -.02em;
+	line-height:25px;
+}
+.founder-author-info {
+	width: 82%;
+    padding-top: 5px;
+    padding-left: 21px;
+}
+.founder-author-info h6 {
+	font-weight:600;
+	line-height:28px;
+}
+.founder-author-info p{
+	line-height:24px;
+}
+.name-of-author {
+	font-size: 53px;
+    line-height: 58px;
+    top: -33px;
+    left: 165px;
+}
+.founder-author-wrap {
+    padding-top: 32px;
+}
+.founder-author-area {
+    padding-top:18px;
+}
+.founder-author-name small {
+	font-size:12px;
+	line-height: 19px;
+	letter-spacing: -.02em;
+}
+.bloger-list-box ul {
+	gap:20px 10px;
+}
+.bloger-list-box ul li {
+	width:calc(calc(100% - 10px) / 2);
+}
+.bloger-list-box ul li img {
+	width:25px;
+	height:25px;
+	object-fit:cover;
+	margin-right: 8px;
+}
+.experience-bloger-list {
+	padding-top:24px;
+	padding-bottom:48px;
+}
+.common-image-bg {
+	background-image: url(../images/blog_bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-simgle-cat-title h2 {
+	font-size:28px;
+	padding-bottom:6px;
+}
+.become-blogger-area  {
+	background-image: url(https://marbslifestyle.com/wp-content/webp-express/webp-images/uploads/2022/12/bg-sidebar-authorprofile.png.webp);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: cover;
+	padding-top:28px;
+	padding-bottom:24px;
+}
+.become-blogger-wrap .line_bar  {
+	width:130px;
+}
+.become-blogger-wrap h3 {
+	font-size: 24px;
+    line-height: 22px;
+    padding-bottom:20px;
+}
+.become-blogger-wrap p {
+	padding-bottom:20px;
+	line-height:20px;
+}
+.become-blogger-wrap .golden-button {
+	max-width:242px;
+}
+.team-blog-title {
+    text-align: end;
+    padding-bottom: 30px;
+}
+.team-bloger-sliderarea {
+	padding-top:48px;
+	padding-bottom:58px;
+}
+.team-slingle-slider .owner_personal_info {
+	width:auto;
+	padding: 12px 10px;
+}
+.team-slingle-slider .personal_profile_details span {
+	padding-bottom:10px;
+}
+.team-slingle-slider .personal_profile_details h5 {
+	font-weight:var(--fw-400);
+	font-size:18px;
+}
+.team-slingle-box {
+    margin: 0px -10px;
+}
+.team-bloger-title h3 {
+	font-size: 20px;
+    line-height: 155%;
+    letter-spacing: -.02em;
+}
+.team-bloger-title {
+	padding-bottom:16px;
+}
+@media screen and (max-width:991px){
+	.name-of-author{
+		position:initial;
+		font-size: 31px;
+	    line-height: 32px;
+	    padding-top: 10px;
+	    display:block;
+	}
+	.founder-author-photo {
+		width: 100px;
+		height: 100px;
+		position: initial;
+		border: 0;
+		box-shadow: none;
+	}
+	.founder-author-profile {
+	    min-width:auto;
+	    width: 100%;
+	    padding-top: 0px;
+	    display:flex;
+	}
+	.author-info-bg {
+		flex-wrap:wrap;
+	}
+	.founder-author-info {
+		width:100%;
+		padding:20px 0px 0px 0px;
+	}
+	.founder-author-name {
+	    padding-left: 20px;
+	}
+	.founder-author-name small,
+    .founder-author-name h6 {
+		text-align:left;
+	}
+	.founder-author-area {
+		padding-top:0px;
+	}
+	.bloger-list-box ul li {
+		width:100%;
+	}
+	.experience-bloger-list {
+		padding-bottom:40px;
+	}
+	.team-simgle-cat-title h2 {
+		padding-bottom:20px;
+		line-height:125%;
+	}
+	.team_relatedslider .relatedSlider_wrap {
+		padding-bottom:40px;
+	}
+	.team-bloger-sliderarea {
+	    padding-top: 40px;
+	    padding-bottom: 48px;
+	}
+}
+
+
+/*============slidebar css ===========*/
+.become-blogger-sidebar {
+	background-image: url(https://marbslifestyle.com/wp-content/webp-express/webp-images/uploads/2022/12/bg-sidebar-authorprofile.png.webp);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: cover;
+	padding:26px 24px 24px 34px;
+}
+.become-blogger-sidebar .line_bar {
+    width: 64px;
+}
